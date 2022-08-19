@@ -1,0 +1,12 @@
+.title {
+  text-align: center;
+  background-color: green;
+  display: inline-block;
+  font-size: 4.8rem;
+}
+.titleAlign {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
