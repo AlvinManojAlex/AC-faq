@@ -46,3 +46,10 @@
 .content {
   width: 50%;
 }
+
+@media (max-width: 850px) {
+  .titleFinal {
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+  }
+}

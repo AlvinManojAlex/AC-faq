@@ -1,20 +1,37 @@
 .layout {
   margin: 5rem auto;
-  width: 125rem;
+  width: 80%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+
   column-gap: 20rem;
   text-align: justify;
 }
 .bgImg {
-  background: url("../../public/android_club.png");
   background-repeat: no-repeat;
-  background-position: center 10rem;
+  background-position: center 8rem;
   background-image: linear-gradient(
       to right bottom,
       rgba(25, 26, 25, 0.8),
       rgba(25, 26, 25, 0.8)
     ),
     url("../../public/android_club.png");
+}
+@media (max-width: 1250px) {
+  .layout {
+    width: 90%;
+    column-gap: 10rem;
+  }
+}
+@media (max-width: 1050px) {
+  .layout {
+    width: 90%;
+    column-gap: 5rem;
+  }
+}
+@media (max-width: 850px) {
+  .layout {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }

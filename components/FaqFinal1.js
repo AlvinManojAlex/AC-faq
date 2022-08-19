@@ -4,11 +4,11 @@ import FaqBoxTitle from "./FaqBoxTitle";
 import { DUMMY_DATA } from "./FaqData";
 import FaqTitle from "./FaqTitle";
 
-function FaqFinal(props) {
+function FaqFinal1(props) {
   return (
     <Fragment>
       {DUMMY_DATA.map((item, index) => {
-        if (index % 2 == 0) {
+        if (index % 2 != 0) {
           return (
             <div>
               <FaqBoxTitle
@@ -24,4 +24,4 @@ function FaqFinal(props) {
   );
 }
 
-export default FaqFinal;
+export default FaqFinal1;

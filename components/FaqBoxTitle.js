@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 
 function FaqBoxTitle(props) {
   const [visibility, setVisibility] = useState(false);
+
   const toggleHandler = () => {
     setVisibility(!visibility);
   };
@@ -26,9 +27,7 @@ function FaqBoxTitle(props) {
             {props.title}
           </motion.p>
           <motion.div layout="fixed" className={classes.buttonAlign}>
-            <button className={classes.button}>
-              {props.visibility ? "-" : "+"}
-            </button>
+            <button className={classes.button}>{visibility ? "-" : "+"}</button>
           </motion.div>
         </div>
         <div className={classes.rel}>
