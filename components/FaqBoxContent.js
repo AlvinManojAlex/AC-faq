@@ -4,7 +4,7 @@ import classes from "./FaqBoxContent.module.css";
 function FaqBoxContent(props) {
   return (
     <Fragment>
-      <p className={classes.content}>{props.content}</p>
+      <p className={`${classes.content} ${classes.width}`}>{props.content}</p>
     </Fragment>
   );
 }

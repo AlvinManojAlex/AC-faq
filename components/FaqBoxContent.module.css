@@ -4,3 +4,9 @@
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
   /* position: absolute; */
 }
+
+.width{
+  width: 80%;
+  position: relative;
+  left: 5rem;
+}
