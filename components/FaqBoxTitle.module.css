@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 .title {
-  background-color: #1b3521;
-  font-weight: 700;
+  background-color: rgba(31, 81, 40, 0.1);          /*#1E5128 in rgb*/
   font-size: 2.4rem;
-  color: white;
+  font-family: "Aldrich", sans-serif;
+  color: #D8E9A8;
 }
 .titleFinal {
   display: flex;
   gap: 2.4rem;
-  background-color: #1b3521;
+  background-color: rgba(31, 81, 40, 0.5);
   cursor: pointer;
+  padding: 0 5rem;
+  margin: 2rem;
+  border-radius: 40px;
 }
 .buttonAlign {
   display: flex;
@@ -16,7 +21,7 @@
   justify-content: center;
 }
 .button {
-  background-color: rgba(58, 117, 50, 0.2);
+  background-color: #4E9F3D;
   border: none;
   font-size: 2.4rem;
   border-radius: 50px;
@@ -25,4 +30,7 @@
 }
 .rel {
   position: relative;
+}
+.content{
+  width: 50%;
 }

@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
 .title {
   text-align: center;
-  background-color: green;
+  background-color: #4E9F3D;
+  color: black;
   display: inline-block;
+  font-family: 'Aldrich';
+  padding: 1.5rem 15rem;
   font-size: 4.8rem;
+  border-radius: 50px;
 }
+
 .titleAlign {
   grid-column: span 2;
   display: flex;
